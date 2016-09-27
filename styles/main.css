@@ -7,4 +7,26 @@ background-color: blue;
 heighth: 20px;
 width: 90px;
  }
- 
+
+
+.awesome {
+  color: darkblue;
+}
+
+.hot {
+border: 3px solid green;
+}
+
+.size {
+  font-size: 8px;
+  font-style: oblique;
+}
+
+body {
+  background-image: url("../images/port-to-water.jpg");
+  background-attachment: fixed;
+}
+footer {
+  text-align: right;
+  font-weight:bold;
+}
