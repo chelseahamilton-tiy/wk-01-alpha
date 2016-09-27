@@ -1,12 +1,12 @@
 _**All Wizardering Levels**_
 Without worrying about positioning, have fun styling your "wk-01-alpha" project, just ensure that you:
-- [ ] Include css in each of the three possible ways: imported, style element, embedded.
+- [x] Include css in each of the three possible ways: imported, style element, embedded.
 - Apply styles based on the following selectors and selector combinations:
-  - [ ] element
-  - [ ] class
-  - [ ] id
-  - [ ] distinct nested element and class combination (i.e. if applied to element
-  - [ ] distinct nested element and class combination (i.e. if applied to element _or_ class _alone_ then additional nodes would be also be styled;  e.g. `p a`)
+  - [x] element
+  - [x] class
+  - [x] id
+  - [x] distinct nested element and class combination (i.e. if applied to element
+  - [x] distinct nested element and class combination (i.e. if applied to element _or_ class _alone_ then additional nodes would be also be styled;  e.g. `p a`)
   - [ ] shared styles (e.g. `p, a`)
 - Add styling including at least one instance for each of these **properties**:
   - [ ] width
@@ -25,7 +25,7 @@ Without worrying about positioning, have fun styling your "wk-01-alpha" project,
   - [ ] font-weight
   - [ ] text-decoration
 - Use the following measurements at least once:
-  - [ ] px
+  - [x] px
   - [ ] %
   - [ ] rem
   - [ ] em
