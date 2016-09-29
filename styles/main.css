@@ -1,5 +1,5 @@
 h1 {
-  color: red;
+  color: darkblue;
 }
  nav ul {
 
@@ -14,7 +14,7 @@ width: 90px;
 }
 
 .hot {
-border: 3px solid green;
+border: 3px solid gray;
 border-radius: 3px;
 }
 
@@ -26,6 +26,7 @@ border-radius: 3px;
 body {
   background-image: url("../images/port-to-water.jpg");
   background-attachment: fixed;
+  font-family: fantasy;
 }
 footer {
   text-align: center;
@@ -38,4 +39,65 @@ img.bridge {
 }
 span {
   font-size:2.5rem;
+}
+
+.headercontent {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: gray;
+}
+
+.center{
+  text-align: center;
+}
+
+ .nav {
+   height: 40px;
+   background: #a7e0ee;
+ }
+  .nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav ul li {
+    list-style: none;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding; 10px;
+    color: black;
+  }
+.nav ul li a:hover {
+  color: white;
+}
+li {
+  display: inline;
+}
+.headerbreak {
+  width: 100%;
+  height: 0;
+  border-bottom: 2px solid gray;
+}
+
+.box {
+  width:200px;
+  background: #e3e3e3;
+  line-height: 50px;
+  float: right;
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box:hover {
+  background: #333;
+  color: e3e3e3;
+}
+.size {
+  height: 20rem;
+  width: 30rem;
 }

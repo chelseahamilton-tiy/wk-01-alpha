@@ -8,14 +8,29 @@
   </head>
 
   <body>
+    <main>
     <header>
-      <h1>Chelsea's Vacation Site</h1>
-      <p>
+      <div class="headercontent">
+      <title>Vacation</title>
+      <h1 class="center">Chelsea's Vacation Site</h1>
+      <p class="center">
         I <span>love</span> seeing the world, so I'm making a site about traveling.
       </p>
+  </div>
+  <div class="center" class="nav">
+    <ul>
+      <li><a href="#">Tropical</a><li>
+      <li><a href="#">Arctic</a><li>
+      <li><a href="#">Cruise</a><li>
+      <li><a href="#">My Favorite</a><li>
+    <ul>
+  </div>
     </header>
+    <div class="headerbreak"></div>
+    <div class="box">Button</div>
+    <div class="box">Button</div>
 
-    <nav>
+   <nav>
       <ul>
         <li><a href="#TropicalVacation">Tropical Vacation</a></li>
         <li><a href="#ArticVacation">Artic Vacation</a></li>
@@ -24,14 +39,15 @@
     </nav>
 
     <section>
+
+    <div>
       <h1 id="TropicalVacation" style="color:black;">Tropical Vacation</h1>
         <p class="awesome" style="text-decoration: underline;">
           Indulge yourself in a tropical destination to get away from those winter blues.
           You can relax on the beach or take any tour to our multiple tourist locations.
         </p>
-        <img src="http://www.cruiseonefranchise.com/wp-content/uploads/2015/12/vacation.jpg"
-          width="700"
-          alt="bridge on beach" />
+          <img class="size" src="./images/relax-on-beach.jpg"
+          alt="relax on beach" />
         <p>
           Sometimes I like to check out Travelocity.com for great travel deals.  Here's a <a href="https://www.travelocity.com/" target="_blank">link </a>to that page.  Also, here is bullet list of items...because I want to make a list:
         </p>
@@ -39,41 +55,39 @@
           <li>Fun</li>
           <li>Relaxing</li>
         </ul>
-
-
+    </div>
+  <div>
       <h2 id="ArticVacation" style="color:black;">Arctic Vacation</h2>
         <p class="hot">
           Enjoy a vacation in the Arctic.  You can see cool iceburgs sprouting form the ocean.
           you can also see the great wild life.
         </p>
-        <img class="bridge" src="http://www.greenpeace.org.au/blog/wp-content/uploads/2012/02/GP03C08-1024x669.jpg"
+        <img class="size" class="bridge" src="./images/polar-northern-lights.jpg"
           width="700"
           alt="glacier on water"
           />
-        <ul class="size">
-          <li><a href="http://www.polarcruises.com/arctic" target="_blank"/>Adventurous</a></li>
+        <ul>
+          <li>Adventurous</li>
           <li>Unlike any other vacation</li>
         </ul>
-
-
-      <h1 id="Cruise" style="color:black;">Cruise</h1>
+  </div>
+    <div>
+        <h1 id="Cruise" style="color:black;">Cruise</h1>
       <p>
         Lets go on a Cruise!  Are you someone who loves to just go go go and see everything
         they can and more when you are on a vacation?  If you are, then come enjoy a cruise
         where you can enjoy activites on the boat at sea or off the boat on our port destinations.
       </p>
-      <img src="http://travel.usnews.com/images/rank_prj/4/288/Carnival_Cruise_Lines_CRUISELINE-MAIN_1290.jpg"/>
-
-
+      <img class="size" src="./images/cruise-ship.jpg"/>
       <ul>
         <li>You can enjoy many different destinations on one vacation</li>
         <li><a href="http://www.cruise.com/" target="_blank"/>On and off shore activities</a></li>
       </ul>
-
+ </div>
     </section>
-
     <footer>
         <p>This is Chelsea's footer...sup ya'll</p>
     </footer>
+</main>
   </body>
 </html>
