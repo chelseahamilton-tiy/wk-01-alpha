@@ -101,3 +101,31 @@ li {
   height: 20rem;
   width: 30rem;
 }
+#largebox {
+  width: 50em;
+  height: 50em;
+  background-color: purple;
+  float: left;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#box1 {
+  height: 20em;
+  width: 15em;
+  background-color: darkblue;
+  float: left;
+  margin-left: 25px;
+}
+#box2 {
+  height: 20em;
+  width: 15em;
+  background-color: orange;
+  float: right;
+}
+#box3 {
+  height: 20em;
+  width: 15em;
+  background-color: teal;
+  float: left;
+}
