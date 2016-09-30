@@ -4,12 +4,6 @@ h1 {
 .awesome {
   color: darkblue;
 }
-
-.size {
-  font-size: 1.2em;
-  font-style: oblique;
-}
-
 body {
   background-image: url("../images/port-to-water.jpg");
   background-attachment: fixed;
@@ -25,7 +19,11 @@ img.bridge {
   margin: 3%;
 }
 span {
-  font-size:2.5rem;
+  font-size:3rem;
+}
+
+.imagesize {
+  width: 100%;
 }
 
 .headercontent {
@@ -34,27 +32,11 @@ span {
   margin: 0;
   background: gray;
 }
-.float {
-float: left;
-}
-.float2 {
-  float: right;
-}
-
-.center{
+.class {
   text-align: center;
 }
-.thisishard {
-  padding: 10px;
-  margin: auto;
-  display: inline;
-}
 
- .nav {
-   height: 40px;
-   background: #a7e0ee;
- }
-    .headerbreak {
+.headerbreak {
   width: 100%;
   height: 0;
   border-bottom: 2px solid gray;
@@ -62,32 +44,6 @@ float: left;
 * {
   margin: 0;
   padding: 0;
-}
-
- ul {
-text-style: none;
-border: 2px solid red;
-overflow: hidden;
-width: 500px;
-display: inline;
-}
-
-li {
-  display: inline;
-  width: 120px;
-  height: 40px;
-  margin: 0px 4px;
-  border-radius: 5px;
-  float:left;
-}
-
-a {
-  display: block;
-  width: 120px;
-  height: 40px;
-  line-height: center;
-  text-decoration: none;
-  text-align: center;
 }
 
 .box {
@@ -105,10 +61,7 @@ a {
   background: #333;
   color: e3e3e3;
 }
-.size {
-  height: 20rem;
-  width: 30rem;
-}
+
 #largebox {
   width: 50em;
   height: 50em;
@@ -119,22 +72,24 @@ a {
   padding-right: 10px;
 }
 #box1 {
-  height: 20em;
-  width: 15em;
-  background-color: darkblue;
-  float: left;
-  margin-left: 25px;
-}
-#box2 {
-  height: 20em;
-  width: 15em;
-  background-color: orange;
-  float: right;
-}
-#box3 {
-  height: 20em;
-  width: 15em;
+  height: 10%;
+  width: 20%;
   background-color: teal;
   float: left;
-  padding-left; 10em;
+  margin-left: 0%;
+  margin-top: 7%;
+}
+#box2 {
+  height: 0%;
+  width: 20%;
+  float: right;
+  background-color: teal;
+  margin-left: 20%;
+}
+#box3 {
+  height: 10%;
+  width: 20%;
+  background-color: teal;
+  float: left;
+
 }
