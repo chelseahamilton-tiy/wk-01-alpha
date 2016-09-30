@@ -46,7 +46,7 @@ span {
   padding: 0;
 }
 
-.box {
+.button {
   width:200px;
   background: #e3e3e3;
   line-height: 50px;
@@ -56,8 +56,11 @@ span {
   border-radius: 5px;
   text-align: center;
 }
+.clearfix {
+    clear: both;
+}
 
-.box:hover {
+.button:hover {
   background: #333;
   color: e3e3e3;
 }
@@ -71,6 +74,7 @@ span {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #box1 {
   height: 10%;
   width: 20%;
@@ -82,7 +86,7 @@ span {
 #box2 {
   height: 0%;
   width: 20%;
-  float: right;
+  float: left;
   background-color: teal;
   margin-left: 20%;
 }
