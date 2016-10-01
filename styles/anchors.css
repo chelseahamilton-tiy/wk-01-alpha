@@ -1,18 +1,27 @@
-a {
-  color: violet;
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: ;
 }
 
-a:visited {
-  color: orange;
+li {
+ float: left;
 }
 
-a:hover {
-  background-color: black;
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
 }
 
-a:focus {
-  background-color: maroon;
+li a:hover:not(.active) {
+ background-color: #111;
 }
-a:active {
-  background-color: purple;
+
+.active {
+ background-color: clear;
 }
